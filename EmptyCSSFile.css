@@ -1,0 +1,48 @@
+﻿ul {
+    list-style-type: none; /* Remove the default list bullet points */
+    padding: 0; /* Remove default padding */
+    margin: 0; /* Remove default margin */
+    background-color: #333;
+    display: flex;
+}
+
+/* Apply styles to the li elements */
+li {
+    flex: 1;
+}
+
+    /* Apply styles to the anchor (link) elements within li */
+    li a {
+        text-decoration: none; /* Remove underlines from links */
+        color: #fff; /* Set text color to white */
+        font-size: 18px; /* Adjust font size */
+        font-weight: bold; /* Make the text bold */
+    }
+
+        /* Hover effect for links */
+        li a:hover {
+            text-decoration: underline; /* Add underline on hover */
+            color: #ff6600; /* Change text color on hover */
+        }
+body{
+    background-color: #333;
+}
+/* Adjust spacing for top-links */
+.top-links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px; /* Adjust padding to control spacing */
+}
+
+/* Style for social media links */
+.social-media {
+    display: flex;
+    gap: 10px; /* Adjust the gap between social media icons */
+}
+
+    /* Style for social media icons */
+    .social-media a img {
+        width: 24px; /* Adjust the width of the social media icons */
+        height: 24px; /* Adjust the height of the social media icons */
+    }
